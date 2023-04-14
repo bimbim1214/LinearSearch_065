@@ -31,3 +31,21 @@ void linearSearch()
 	char ch;
 	int comparation; //number of comparation
 
+	do
+	{
+		// accept the number to be search
+		cout << "\nenter the element you want to search : "; //langkah 1
+		int item;
+		cin >> item;
+
+		comparation = 0;
+		for (i = 0; i < n; i++) // langkah 2, 3 dan 4
+		{
+			comparation++;
+			if (arr[i] == item)
+			{
+				cout << "\n" << item << "found at position " << (i + 1) << endl;
+				break;
+			}
+		}
+
