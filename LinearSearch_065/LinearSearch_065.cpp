@@ -29,3 +29,5 @@ void input()
 void linearSearch()
 {
 	char ch;
+	int comparation; //number of comparation
+
